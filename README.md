@@ -34,7 +34,7 @@ Retirer: Allows the customer to withdraw money from their account.
 modifierMPClient: Modifies the customer's password.
 
 
-#Main:
+# Main:
 
 
 The main part of the program consists of a menu-driven interface that allows the user to choose between the Bank Agent and Bank Customer roles. Depending on the role, the user can perform actions like adding/deleting accounts, changing passwords, depositing, and withdrawing money.
