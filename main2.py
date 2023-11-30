@@ -58,7 +58,7 @@ while True:
             elif choixc == '2':
                 while True :
                     numcl = int(input("Type customer number : "))
-                    mpc = str(input("Type new password : "))
+                    mpc = str(input("Type password : "))
                     client1 = client(numcl, mpc)
                     if (numcl in Agent.Client) and (Agent.Client[numcl] == mpc) :
                         break 
@@ -70,7 +70,7 @@ while True:
             elif choixc == '3':
                 while True :
                     numcl = int(input("Type customer number : "))
-                    mpc = str(input("Type new password : "))
+                    mpc = str(input("Type password : "))
                     client1 = client(numcl, mpc)
                     if (numcl in Agent.Client) and (Agent.Client[numcl] == mpc) :
                         break 
