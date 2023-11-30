@@ -30,7 +30,7 @@ class Agent() :
         print("The account was created with the customer number: ", numcl ," and account number: ",numc," and the password: ",mpc)
         with open('CSVfile.csv', 'w') as fd :
             csv_writer = csv.writer(fd)
-            csv_writer.writerow([numcl, numc, mpc, Balance])
+            csv_writer.writerows([Agent.Compte, Agent.Client, Agent.ClientCompte])
 
     def SupprimerCompte(self,numc):
         del Agent.Compte[numc]
